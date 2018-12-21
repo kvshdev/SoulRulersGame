@@ -10,30 +10,6 @@
 #include <iostream>
 using namespace std;
 
-
-
-class SoulRuler{
-    
-    string name;
-    int health;
-    //string
-    
-    
-public:
-    
-    SoulRuler(string name, int health){
-        this->name = name;
-        this->health = health;
-    
-    }
-    
-    
-    virtual string warriorType() const{ return "unspecified"; }
-
-    
-};
-
-
 /*
  
     This is a class of Souls
